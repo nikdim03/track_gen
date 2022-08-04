@@ -8,7 +8,7 @@ int main() {
   int zip;
   if (!scanf("%d", &zip) || zip < 101000 || zip > 800999) {
     printf("Invalid input");
-    return 0;
+    exit(0);
   } else {
     char track[14] = {'0'};
     for (int i = 5; i >= 0; i--) {
